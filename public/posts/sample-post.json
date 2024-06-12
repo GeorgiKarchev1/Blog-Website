@@ -1,0 +1,23 @@
+[
+  {
+    "title": "First Blog Post",
+    "content": ""
+  },
+  {
+    "title": "Big Twitch Energy: How live streaming made me a better developer.",
+    "content": "Productivity on Hireproof, with the help of Twitch, is through the roof, live coding is something I’ve been doing for years as part of my responsibilities for hackyourfuture, so I hit the ground running. Slacking off is not really possible, as you have an audience watching and criticising your every move, they did not come here to watch me browse Reddit or read the news, they came to see code! Streaming the code live allows for enforced rubber ducky’ing, as I’m narrating my problem-solving and thinking for the viewers in real-time. That’s great, but what’s even better is that with an average of 60 viewers, I also have an average of 60 pair programmers who are critiquing and backseating my code in real-time. I can’t tell you the amount of viewers who’ve save me tremendous amounts of time while I’ve been writing code, unsolicitedly telling me line numbers and fixes. If I’m stuck, I ask chat, if I’m trying to decide which design is better, I ask chat, if I want best practice I ask chat. I run votes to determine UX/UI, I ask who has done X before, does anyone have experience with Y, and I get well-thought-out and professional responses. We often joke about the fact that our app is crowdsourced, that every bug fix from chat is .01% equity, and while it is a joke, the `free labor` has been instrumental in building the beautiful app we are proud to have today."
+  },
+  {
+    "title": "The community",
+    "content": "We have a thriving discord (slack for gamers) server full of a diverse set of professionals who spend their chat time talking about the latest trends in web development and the startup ecosystem.\n\nWe share podcasts, memes, startup war stories, ask career advice, cool new startups, lame new startups. We share beautiful marketing websites, very ugly marketing websites, cool new advances in javascript, bizarre new advances in javascript. News of companies successes, news of companies failures. Basically everything you would talk about at the water cooler, but with a community who chose to be there — not just who happened to work in the same office. These are not friends of convenience, such that you find in the office, all these people choose to be here, because we like the same memes, we have the same interests, and we view the tech ecosystem in the same way.\n\nWhile this sounds like an echo chamber lacking in diversity, I’ll allay your fears, because developers, bless their hearts, can always find something to argue about. Some members remain anonymous, some are fully doxxed and have added me on LinkedIn. Some have flown into Amsterdam to hang out — the entire spectrum of privacy has been explored in the chat, whatever people are comfortable with."
+  },
+  {
+    "title": "The traffic",
+    "content": "While not the purpose, certainly a wonderful side effect of Twitch has been driving traffic to our website, as our business is B2B SaaS, and our audience is mostly software professionals, we’ve had quite an overlap in viewers who were facing the exact problems we were trying to solve.\n\nEvery time a new user asks, I launch into around a ~2-minute product tour. This can happen up to a dozen times a day, my viewers have turned it into a running joke, that they could perform it because they’ve heard it so many times. It could be automated, I could make a chat command `!product` that would link to a youtube video of my tour, but I find the personal tour opens up the possibility for the skeptics and the curious to barrage me with questions, which often leads to interesting dialog and perhaps angles we hadn’t considered before.\n\nOne of our biggest users and first testimonial came from Twitch, and requests features and improvements live on twitch chat (much to the chagrin of our highly organized customer success lead)."
+  },
+  
+  {
+    "title": "The Streamers",
+    "content": "There is a large community of streamers creating content centered around Software Development, with representatives from big-name companies such as Netflix and Netlify, in addition to a litany of indie hackers and smaller startups. These streamers are all promoting transparent and engaging content that focuses on the daily grind — this serves to improve branding in advertising, exposure, and recruitment. It’s obviously a niche category, but the audience is active and engaged. Shoutout to purplelf (gumroad), jamiepinelive (spacedrive), akawr, and roxkstar74, who are all in the European timezone working daily on their companies."
+  }
+]
