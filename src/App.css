@@ -1,7 +1,8 @@
 /* src/App.css */
 .App {
   text-align: center;
-  background-color: rgb(24, 23, 28);
+  background-color: #1D283A;
+  padding-bottom: 4rem;
 }
 
 .subscription-container {
@@ -22,7 +23,7 @@
   font-size: 20px;
   border: 1px solid #ccc;
   border-left: none;
-  background-color: #61dafb;
+  background-color: #009bd6;
   color: #fff;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
@@ -33,7 +34,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(17, 24, 39);
   min-height: 70vh;
   display: flex;
   flex-direction: column;
@@ -79,4 +80,34 @@ p {
   font-weight: 700;
   font-style: normal;
   color: white;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+
+main { 
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1D283A; /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #009bd6; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Roundness of the scrollbar handle */
+  border: 3px solid #1D283A; /* Creates padding around the scrollbar handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #21a1f1; /* Color of the scrollbar handle on hover */
 }
