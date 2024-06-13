@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Post from './components/Post';
 import './App.css';
+import logo from './img/blog.png'; // Уверете се, че пътят е коректен
 
 const App = () => {
   const [posts, setPosts] = useState([]);
@@ -22,6 +23,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={logo} alt="Logo" className="App-logo" />
         <h1 className='general-h1'>Just Read It</h1>
         <p className='general'>My blog is brief, but each post will inform you more than you expect.</p>
         <div className="subscription-container">
