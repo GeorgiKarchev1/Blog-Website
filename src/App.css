@@ -1,33 +1,39 @@
+/* src/App.css */
 .App {
   text-align: center;
   background-color: rgb(24, 23, 28);
- 
-}
-// това е само за постовете
-// https://fonts.google.com/selection/embed
-.post * {
-  border: none !important; /* Премахни всички бордъри от децата на .post */
-  margin: 0 !important; /* Промени всички отстъпи от децата на .post */
 }
 
-
-main {
-  /* background-color: rgb(24, 23, 28); */
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subscription-container {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.email-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: #61dafb;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #21a1f1;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,17 +42,20 @@ main {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.general-h1 { 
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.general {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1, h2 {
@@ -60,4 +69,3 @@ p {
   font-weight: 700;
   font-style: normal;
 }
-
